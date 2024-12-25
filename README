@@ -11,7 +11,7 @@ adjust_factor - Control the relative weights of energy, force, and stress
 TrainFor.z01 - TrainFor.txt, data file containing the stress and force for all structures
 TrainStr.z01 - TrainStr.txt, data file containing the energy and coordinate information of all structures
 
-PtAlSiOH.input - The last trained G-NN potential
+PtAlSiOH.input - The last trained G-NN potential, which is compatible with LASP software.
 
 structure-information.xlsx - The chemical formula for structures (57071 in Total) in the G-NN potential training
 
