@@ -1,0 +1,22 @@
+#
+explore_type train
+Ntrain 57071
+#Input of training
+#
+Jobname PtAlSiOH
+Ntest 0
+NNepochs 30000
+readScale 0
+Frqoutput 1
+OutpotFreq 200
+Optimizers 1
+Histbfgs 5000
+Stepbfgs 0.50000000E+00
+
+%block netinfo
+Pt PtAlSiOH.input
+Al PtAlSiOH.input
+Si PtAlSiOH.input
+O PtAlSiOH.input
+H PtAlSiOH.input
+%endblock netinfo

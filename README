@@ -1,0 +1,18 @@
+Data Availability：
+
+The complete data set for the G-NN potential development in this work are hosted at https://github.com/wwzhangxmu/Artificial-Neural-Network-Potential-PtAlSiOH
+
+
+This directory contains:
+
+lasp.in - Control the G-NN potential training setup 
+adjust_factor - Control the relative weights of energy, force, and stress
+
+TrainFor.z01 - TrainFor.txt, data file containing the stress and force for all structures
+TrainStr.z01 - TrainStr.txt, data file containing the energy and coordinate information of all structures
+
+PtAlSiOH.input - The last trained G-NN potential
+
+structure-information.xlsx - The chemical formula for structures (57071 in Total) in the G-NN potential training
+
+lasp.sh - Script for the job submission
